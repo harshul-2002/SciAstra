@@ -1,15 +1,14 @@
 footer {
     margin-top: 8vw;
     background-image: url(https://images.unsplash.com/photo-1597567175782-1e5771f7f313?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fHN0YXJzfGVufDB8fDB8fHww&auto=format&fit=crop&w=500&q=60);
-
+   width: 100%;
 }
 .Main-Footer-div {
 
-
+    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     gap: 4vw;
     color: whitesmoke;
   }
@@ -23,16 +22,20 @@ footer {
     width: 10vw;
     gap: 1vw;
     color: whitesmoke;
+    font-size: 4vh;
   }
   .Footer-div-1 {
     margin-left: 5vw;
     margin-top: 3vw;
     display: flex;
     flex-direction: column;
-    width: 12vw;
-    gap: 1vw;
+    gap: 1.2vw;
+    width: max-content;
     color: whitesmoke;
+    font-size: 2.5vh;
   }
+  
+
   .Footer-div-1 svg{
     margin-right: 1vw;
   }
@@ -45,7 +48,7 @@ footer {
 
     justify-content: space-around;
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 3vh;
 
   }
 
@@ -56,14 +59,13 @@ footer {
     padding: 0px;
     justify-content: space-around;
     color: whitesmoke;
-    font-size: 1.5vw;
+    font-size: 1.5vh;
     background-color:  #222831;
 
   }
 
   .Footer-div-3 p {
     padding: 1vw;
-
   }
 
   .Main-Footer-div a {
@@ -74,3 +76,6 @@ footer {
   .footer-div-2 p {
     margin: 5px 0;
   }
+
+
+  
