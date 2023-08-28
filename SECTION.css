@@ -114,6 +114,15 @@
    -webkit-text-fill-color: transparent;
 
 }
+.inside-section-2 h3 {
+    margin-top: 2vw;
+    font-size: 4vw;
+}
+
+.inside-section-2 h5 {
+    margin-bottom: 1vw;
+    font-size: 2vw;
+}
 
 .inside-div-2{
     margin-top: 10vh;
@@ -125,6 +134,7 @@
 
 }
 .inside-div-2 img {
+    margin: 2vw;
     border-radius: 50%;
     width:40vw;
     height: 40vw;
@@ -149,10 +159,26 @@
     flex-direction: column;
 
 }
+
+.inside-div-3 h4 {
+    margin-top: 2vw;
+    font-size: 3vw;
+
+
+}
 .inside-div-3 img {
     border-radius: 50%;
     width:25vw;
     height: 25vw;
+}
+@media  screen and (max-width:750px) {
+    .inside-section-3 {
+        margin-top: 8vh;
+        flex-direction: column;
+        display: flex;
+        gap: 10vw;
+    }
+    
 }
 
 .message-button {
@@ -161,10 +187,11 @@
    align-items: center;
    color: #222831;
    text-decoration: none;
-   width: 200px;
-   height: 50px;
-   border: double 4px transparent;
-   border-radius: 80px;
+   width: 13vw;
+   height: 3vw;
+   font-size: 1vw;
+   border: double 0.2vw transparent;
+   border-radius: 10vw;
    background-image: linear-gradient(white, white), radial-gradient(circle at top left, #00ADB5,#222831 );
    background-origin: border-box;
    background-clip: padding-box, border-box;
